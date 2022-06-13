@@ -26,8 +26,8 @@ public class Main {
         devYsrael.setNome("Ysrael Sacrati");
         devYsrael.inscreverBootcamp(bootcamp);
         devYsrael.progredir();
-        System.out.println("conteudos inscritos\n" + devYsrael.getConteudosInscritos());
+        System.out.println("conteudos inscritos" + devYsrael.getConteudosInscritos());
         System.out.println("conteudos concluidos"+ devYsrael.getConteudosConcluidos());
-
+        System.out.println("xp : "+devYsrael.calcularTotalXp());
     }
 }

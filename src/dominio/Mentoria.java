@@ -18,4 +18,13 @@ public class Mentoria extends Conteudos{
     public void setData(LocalDate data) {
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "Mentoria{" +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescriçao() + '\'' +
+                ", data=" + data +
+                '}';
+    }
 }
