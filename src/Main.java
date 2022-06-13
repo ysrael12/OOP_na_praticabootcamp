@@ -14,6 +14,6 @@ public class Main {
         mentoriaJava.setTitulo("Como criar sua carreira");
         mentoriaJava.setData(LocalDate.now());
         mentoriaJava.setDescriçao("lalal");
-        System.out.println(mentoriaJava);
+        System.out.println(mentoriaJava.getTitulo());
     }
 }
